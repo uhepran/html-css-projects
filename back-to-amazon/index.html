@@ -1,10 +1,37 @@
-<a href="https://www.amazon.com">
+<style>
+    #back {
+        color: rgb(0,113,133); /*around blue*/
+    }
+
+    #price {
+        color: rgb(0,118,0); /*around green*/
+        font-weight: bold;
+    }
+
+    button {
+        width: 120px;
+        height: 30px;
+        border-radius: 15px;
+        border: none;
+    }
+
+    #add {
+        background-color: rgb(255,216,20); /*around yellow*/
+        margin-right: 8px;
+    }
+
+    #buy {
+        background-color: rgb(255,164,28); /*around orange*/
+    }
+</style>
+
+<a href="https://www.amazon.com" id="back">
     Back to Amazon
 </a>
 
-<p>Nike Black Running Shoes</p>
-<p>$39 - in stock.</p>
+<h1>Nike Black Running Shoes</h1>
+<p id="price">$39 - in stock.</p>
 <p>Free delivery tomorrow.</p>
 
-<button>Add to Cart</button>
-<button>Buy now</button>
+<button id="add">Add to Cart</button>
+<button id="buy">Buy now</button>
