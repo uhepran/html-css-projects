@@ -1,0 +1,15 @@
+img {
+    width: 135px;
+    height: 135px;
+    object-fit: cover;
+    margin-right: 16px;
+}
+
+.rounded {
+    width: 200px;
+    border-radius: 32px;
+}
+
+.circle {
+    border-radius: 70px; /*trick: 1/2 of width or height*/
+}
