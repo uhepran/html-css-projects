@@ -1,0 +1,37 @@
+body {
+    font-family: Arial;
+}
+
+p {
+    font-size: 30px;
+    margin-top: -5px;
+    margin-bottom: 20px;
+}
+
+input, button {
+    padding: 10px 20px;
+    background-color: #F1EFF1;
+    border: none;
+}
+
+input {
+    display: block;
+    margin-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 100px;
+}
+
+button {
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.request {
+    background-color: black;
+    color: white;
+    margin-right: 14px;
+}
+
+button:active {
+    box-shadow: 2px 2px 5px lightgreen;
+}
