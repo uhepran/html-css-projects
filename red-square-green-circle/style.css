@@ -1,0 +1,20 @@
+.color {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 64px;
+    cursor: pointer;
+}
+
+.color:active {
+    box-shadow: 0 0 8px black;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+    border-radius: 150px;
+}
