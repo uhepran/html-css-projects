@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;
+}
+
+div {
+    width: 380px;
+    margin: 32px;
+    padding: 16px;
+}
+
+.p-9c {
+    border: 1px solid black;
+}
+
+.question-9c {
+    margin-top: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.p-9d {
+    background-color: #1E1D1F;
+    color: rgb(200,200,200);
+    
+}
+
+.title-9d {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.desc-9d {
+    margin-bottom: 0;
+}
