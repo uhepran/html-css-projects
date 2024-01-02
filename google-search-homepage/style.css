@@ -1,0 +1,46 @@
+.main-div {
+    margin-top: 150px;
+}
+
+.in-main-div {
+    text-align: center;
+}
+
+.logo {
+    width: 200px;
+}
+
+.search-box {
+    display: inline-block;
+    width: 500px;
+    height: 28px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 0 4px rgba(0,0,0,0.25);
+    margin-top: 8px;
+    margin-bottom: 28px;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.search-btn, .lucky-btn {
+    cursor: pointer;
+    padding: 10px 16px;
+    border: none;
+    font-size: 14px;
+    border-radius: 8px;
+    transition: box-shadow 0.15s, font-size 0.15s, border 0.15s;
+}
+
+.search-btn:hover, .lucky-btn:hover {
+    box-shadow: 0 0 4px rgba(0,0,0,0.25);
+    font-size: 16px;
+}
+
+.search-btn:active, .lucky-btn:active {
+    border: 1px solid lightblue;
+}
+
+.search-btn {
+    margin-right: 8px;
+}
