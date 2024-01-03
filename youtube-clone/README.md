@@ -1,4 +1,4 @@
 YouTube clone.
 
-# Reality
+# Screenshot
 ![my result](images/result.png)
