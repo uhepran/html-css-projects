@@ -1,0 +1,42 @@
+.container {
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.lightblue {
+    background-color: lightblue;
+}
+
+.lightpink {
+    background-color: lightpink;
+}
+
+.px200 {
+    width: 200px;
+}
+
+.px75 {
+    width: 75px;
+}
+
+.px50 {
+    width: 50px;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.three {
+    justify-content: space-between;
+}
+
+.four {
+    height: 50px;
+    border: 1px solid gray;
+
+    justify-content: space-between;
+    align-items: center;
+}
