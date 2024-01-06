@@ -1,3 +1,9 @@
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .super-container {
     border: 1px solid #EBEAEB;
     width: 250px;
@@ -24,11 +30,10 @@
     font-weight: bold;
     padding: 1px 8px;
     border-radius: 10px;
+    font-size: 11px;
 
-}
-
-p {
-    font-family: Arial;
-    margin-top: 0;
-    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
