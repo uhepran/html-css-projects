@@ -6,5 +6,5 @@ Exercise from [SimpleWebDev problem 12f](https://www.youtube.com/watch?v=G3e-cpL
 # Reality
 ## Fullscreen
 ![fullscreen result](fullscreen-result.png)
-## Fullscreen
+## Halfscreen
 ![halfscreen result](halfscreen-result.png)
