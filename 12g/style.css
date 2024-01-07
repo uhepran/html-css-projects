@@ -1,0 +1,59 @@
+.container {
+    width: 350px;
+}
+
+.profile, .left-section, .right-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+}
+
+p {
+    color: gray;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.left-section {
+    width: 75px;
+}
+
+.right-section {
+    width: 100px;
+}
+.middle-section {
+    flex: 1;
+    line-height: 4px;
+}
+
+.photo-profile {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.name {
+    color: black;
+    font-weight: bold;
+}
+
+.status {
+    font-size: 14px;
+}
+
+.follow-btn {
+    cursor: pointer;
+    background-color: #4193F1;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+.follow-btn:hover {
+    box-shadow: 0 0 32px lightblue;
+}
