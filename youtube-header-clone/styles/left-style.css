@@ -1,0 +1,21 @@
+/* LEFT */
+.left-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 16px;
+    margin-right: 48px;
+}
+
+.menu-btn {
+    height: 40px;
+}
+
+.menu-img {
+    height: 24px;
+}
+
+.logo-img {
+    height: 20px;
+    cursor: pointer;
+}

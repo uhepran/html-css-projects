@@ -1,0 +1,30 @@
+/* RIGHT */
+.right-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.upload-btn, notif-btn {
+    height: 40px;
+}
+
+.upload-img, .notif-img {
+    height: 24px;
+}
+
+.account-btn {
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.account-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+}
