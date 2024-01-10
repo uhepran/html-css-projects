@@ -1,0 +1,59 @@
+p, div {
+    font-family: Arial;
+    font-size: 13px;
+}
+
+.border-per-email {
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.25);
+    padding: 8px;
+    width: 310px;
+    height: 90px;
+}
+
+.type-email, .time, .content {
+    color: gray;
+}
+
+.type-email {
+    margin-bottom: 14px;
+}
+
+.email {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.photo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+}
+
+.photo-img {
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+    border-radius: 18px;
+    
+}
+
+.sender {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sender-span {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.header {
+    font-weight: bold;
+}
+
+.content {
+    margin-top: 2px;
+}
