@@ -1,4 +1,4 @@
-... from [SimpleWebDev problem ...]().
+... from [SimpleWebDev exercise ...]().
 
 # Expectation
 ![expected result](expectation.png)
