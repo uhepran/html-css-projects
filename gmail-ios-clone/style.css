@@ -1,59 +1,62 @@
-p, div {
+p {
+    color: #B3B2B3;
     font-family: Arial;
-    font-size: 13px;
+    font-size: 14px;
 }
 
-.border-per-email {
-    border-radius: 4px;
+.outer-box {
+    width: 350px;
+
+    /* border: 1px solid #B3B2B3; */
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 32px;
+
     box-shadow: 0 0 8px rgba(0,0,0,0.25);
-    padding: 8px;
-    width: 310px;
-    height: 90px;
 }
 
-.type-email, .time, .content {
-    color: gray;
-}
-
-.type-email {
-    margin-bottom: 14px;
+.all-inboxes {
+    margin: 0;
 }
 
 .email {
     display: flex;
     justify-content: space-between;
-    width: 100%;
-}
-
-.photo-div {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    margin-right: 0;
+    margin-top: 8px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
 }
 
-.photo-img {
-    width: 36px;
-    height: 36px;
+.email:active {
+    box-shadow: 0 0 8px rgba(0,0,0,0.25);
+}
+
+.profile-picture-div {
+    width: 56px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
     object-fit: cover;
-    border-radius: 18px;
-    
 }
 
-.sender {
+.content {
+    flex: 1;
+    line-height: 4px;
+}
+
+.sender-and-time {
     display: flex;
     justify-content: space-between;
 }
 
-.sender-span {
+.sender, .header {
+    color: black;
     font-weight: bold;
-    font-size: 15px;
-}
-
-.header {
-    font-weight: bold;
-}
-
-.content {
-    margin-top: 2px;
 }
