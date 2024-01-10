@@ -1,0 +1,37 @@
+.main {
+    display: flex;
+    width: 300px;
+    height: 64px;
+    margin: 16px;
+}
+
+.lightpink {
+    background-color: lightpink;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+.lightblue {
+    background-color: lightblue;
+    width: 200px;
+}
+
+.row1 {
+    background-color: lightblue;
+    color: black;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
+}
