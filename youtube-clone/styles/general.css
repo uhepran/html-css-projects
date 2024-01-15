@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    margin-bottom: 1000px;
+    padding-top: 80px;
+    font-family: Arial;
+}
+
+/* GENERAL SETTING FOR HEADER */
+.hamburger-menu-img, .youtube-logo-img, .search-btn,
+.voice-search-btn, .upload-img, .youtube-apps-img,
+.notif-img, .my-channel-img {
+    cursor: pointer;
+}
+
+.search-btn:active, .voice-search-btn:active {
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
+}

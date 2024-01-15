@@ -1,0 +1,54 @@
+.body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 16x;
+
+    margin-left: 64px;
+}
+
+.thumbnail-img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.video-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.channel-picture-img {
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    object-fit: cover;
+
+    cursor: pointer;
+    
+    margin-right: 16px;
+}
+
+.video-info-text {
+    flex: 1;
+}
+
+.video-title {
+    margin-top: 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.channel-name, .stat {
+    color: gray;
+    font-size: 14px;
+}
+
+.channel-name {
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+
+.stat {
+    margin-top: 0;
+}
